@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  gap: -20px;
+  gap: 20px;
   /* This is the parent of the activity 1 boxes. */
 }
 .red1 { 
@@ -35,11 +35,6 @@
 /* Activity 2 styles */ 
 .content2 {
   display: grid;
-  grid-template-columns: repeat (2, 1fr);
-  grid-template-rows:  repeat (2, 1fr);
-  justify-items: left;
-  row-gap: 1px;
-  column-gap: 1px;
   /* This is the parent of the activity 2 boxes. */
 }
 .red2 {
