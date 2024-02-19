@@ -5,6 +5,39 @@
     --heading-font: "Rock Salt", Helvetica, sans-serif;
     --paragraph-font: Roboto, Helvetica, sans-serif;
 }
+/* Header Wireframe Grid Parent, index.html:<header> will be the parent or grid container. It has two children: the <a> that surrounds our logo and the nav element. They are the only grid items we will be able to place in our grid. It will be a simple two-column, one-row grid. */ 
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:#a77c5c;
+}
+/* Header Wireframe Grid Child 1 */ 
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+/* Header Wireframe Grid Child 2 */ 
+nav {
+    display: flex;
+    justify-content:space-around;
+}
+/* Header Wireframe Grid Links */ 
+nav a {
+    text-decoration: line;
+    color: #fdfbfb;
+    text-align: center;
+    padding: 30px;
+    max-width: 250px;
+    font-size: 1.1em;
+}
+/* Header Wireframe Grid Dry-Oar-Logo */ 
+.logo {
+    width: 80px;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
 .book {
     font-size: 1.6em;
 }
@@ -29,18 +62,7 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-nav {
-    text-align: center; font-size: 1.5em;
-}
-nav a {
-    text-decoration: none;
-    color: #f6f6f8;
-    text-align: center;
-    padding: 35px;
-}
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
-}
+
 .button-box {
     text-align: center;
     font-size: 1.8em; 
@@ -71,9 +93,6 @@ h2 {
     color: #280684;
     margin: 0;
 }
-header {
-    background-color:#a77c5c;
-}
 nav a:hover, .book, .join,.book:hover, .join:hover, footer a {
     background-color: #f0f1e7;
     color: #0a0b09;
@@ -101,12 +120,6 @@ nav a:hover, .book, .join,.book:hover, .join:hover, footer a {
 }
 .icon {
     width: 80px; padding-top: 10px;
-}
-.logo {
-    width: 80px;
-}
-#logo_link {
-    padding-top: 5px;
 }
 .book, .join {
     background-color: #d5994b;
