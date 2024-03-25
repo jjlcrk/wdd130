@@ -91,7 +91,7 @@ body {
     grid-row:  3 / 4;
     padding-right: 25px;
 }
-.news-2-notes {
+.news-2-notes {  
     grid-column: 2 / 7;
     grid-row:  4 / 5;
     padding-right: 25px;
