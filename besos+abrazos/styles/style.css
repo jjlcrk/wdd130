@@ -121,7 +121,7 @@ border: 4px solid #250fce;
 margin-top: 10px;
 border-radius: 15px;
 }
-.news-1-picture, .news-2-picture, .news-3-picture, .news-4-picture, .familylogo {
+.news-1-picture, .news-2-picture, .news-3-picture, .news-4-picture, .news-5-picture, .news-6-picture, .news-7-picture, .news-8-picture, .familylogo {
 background-color: #abd9e5;
 margin-bottom: 5px;
 margin-top: 5px;
@@ -133,7 +133,6 @@ border: 4px solid #250fce;
 margin-top: 10px;
 border-radius: 15px;
 }
-
 /* Headings and Fonts */
 h1 {
     font-family: 'Rock Salt', Roboto, sans-serif; 
@@ -217,18 +216,18 @@ margin-top: -40px;
 }
       
 td {
-border: 1px solid #2707dd;
+border: 2px solid #2707dd;
 text-align: left;
 padding: 8px;
 }
 th {
-    border: 1px solid #dd0712;
+    border: 2px solid #dd0712;
     text-align: center;
     padding: 8px;
     }
       
-tr:nth-child(even) {
-background-color: #dddddd;
+tr:nth-child(odd) {
+background-color: #c3f1f1;
 }
 /* Forms */ 
 #feedback {
