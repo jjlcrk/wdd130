@@ -226,16 +226,41 @@ th {
 tr:nth-child(odd) {
 background-color: #c3f1f1;
 }
-/* Forms */ 
+/* Forms Contact Us Contactenos Aqui*/ 
 #feedback {
-    background-color: antiquewhite;
+    background-color: #ddec09;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    padding: .5em;
+    padding: -100em;
     display: none;
-    font-size: 10em;  
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+    input, label,textarea {
+    width: 60%;
+    padding: 20px 30px;
+    margin: 8px 100px;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-weight: bold;
+}
+#msg {
+    width: 95%;
+    padding: 100px 10px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+button {
+    width: 20%;
+    padding: 20px 10px;
+    margin: 20px 800px;
+    box-sizing: border-box;
+    font-size: 1.5em;
 }
 /* Footer */
 footer {
