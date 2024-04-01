@@ -108,7 +108,7 @@ body {
     grid-row:  6 / 7;
 
 }
-/* Pictures-Class-Hover Formats */
+/* Picture-Class Formats */
 .news-header1, .news-header2 {
 background-color:#c3f1f1;
 border-radius: 15px; 
@@ -135,8 +135,9 @@ border: 4px solid #250fce;
 margin-top: 10px;
 border-radius: 15px;
 }
+/* Picture Hover Formats */
 .news-p1-pic:hover {
-    opacity: 1;
+    opacity: .7;
     transform: scale(1.4);
 }
 .news-p2-pic:hover {
@@ -148,8 +149,8 @@ border-radius: 15px;
     transform: scale(2);
 }
 .familylogo:hover {
-    opacity: .5;
-    transform: scale(1.4);
+    opacity: .7;
+    transform: scale(1.8);
 }
 /* Headings and Fonts */
 h1 {
@@ -249,7 +250,7 @@ background-color: #c3f1f1;
     top: 0;
     left: 0;
     right: 0;
-    padding: -100em;
+    padding: .2em;
     display: none;
     text-align: center;
     font-size: 1.2em;
